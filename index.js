@@ -2,7 +2,7 @@
 import express from 'express';
 
 // The port to run the server on
-// Used to be port 80
+// Used to run on port 80
 const port = 3000;
 
 // Create a new web server
