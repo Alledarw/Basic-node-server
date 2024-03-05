@@ -2,7 +2,8 @@
 import express from 'express';
 
 // The port to run the server on
-const port = 80;
+// Used to be port 80
+const port = 3000;
 
 // Create a new web server
 // store in the variable app
