@@ -7,6 +7,8 @@
     Ensure that no other server is running on port 80 - check using pm2 - stop or delete if anything else is running on the same port.
     Start the server using pm2: pm2 start index.js --name basic-html-server.
 
+    // Remember to change the ports in index.js for it to work with the reverse proxy in pm2!
+
   # pm2 commands
 
     pm2 start index.js -name <name_of_app> - Start a node application
